@@ -1,12 +1,10 @@
 pipeline {
-    agent any
-	
+    agent any	
 	options { skipDefaultCheckout() }
 	
     stages {
         stage('Build') {
-			agent any
-			
+			agent any			
 			options { skipDefaultCheckout() }
 			
             steps {                
